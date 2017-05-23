@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="build/css/vendor.css">
+    <script src="build/js/vendor.min.js"></script>
+    <script type="text/javascript" src="build/js/app.js"></script>
+    <meta charset="utf-8">
+    <title>Weather</title>
+  </head>
+  <body>
+    <div class="">
+      <form id="weather-form">
+        <div class="">
+          <label for="cityname">City Name:</label>
+          <input type="text" id="cityname" name="cityname">
+        </div>
+        <button type="submit" name="button">Submit</button>
+      </form>
+    </div>
+    <div class="well row" id="cityInfo">
+      <h3 id="citytext"></h3>
+      <div class="col-sm-4">
+        <h4 id="humidity"></h4>
+        <h4 id="currentTempK"></h4>
+      </div>
+      <div class="col-sm-4">
+        <button id="showCel" type="button" name="button">Celsius</button>
+        <h4 id="currentTempC"></h4>
+      </div>
+      <div class="col-sm-4">
+        <button id="showFar" type="button" name="button">Farenheit</button>
+        <h4 id="currentTempF"></h4>
+      </div>
+    </div>
+  </body>
+</html>
